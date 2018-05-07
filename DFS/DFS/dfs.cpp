@@ -1,6 +1,6 @@
 #include<iostream>
 #include "dfs.h"
-
+#include<stdio.h>
 using namespace std;
 
 Graph::Graph(int V) {
