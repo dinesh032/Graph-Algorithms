@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 	Graph g(6);
 
-/*	https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/ DFS traversal
+/*https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/ DFS traversal
 	 1
 	/ \
    2   3
