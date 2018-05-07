@@ -12,7 +12,7 @@ void Graph::addEdge(int v, int w) {
 }
 
 void Graph::BFS(int s) {
-	bool *visited = new bool[V];	//bool array to keep track of visited nodes
+	 bool *visited = new bool[V];	//bool array to keep track of visited nodes
 	for (int i = 1; i <= V; i++)
 		visited[i] = false;
 	list<int> queue;				//queue to store and print the BFS output
@@ -32,5 +32,5 @@ void Graph::BFS(int s) {
 				queue.push_back(*i);
 			}
 		}
-	}
+       }
 }
